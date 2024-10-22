@@ -12,7 +12,7 @@ stage('SCA-SAST-SNYK-TEST'){
 
     snykSecurity(
         snykInstallation:'Snyk',
-        snykTokenId: 'Synkid',
+        snykTokenId: 'Snykid',
         severity: 'critical'
     )
 
